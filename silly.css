@@ -1,11 +1,12 @@
 
  body {
         background: url(https://i.ibb.co/mFNmwYS/Silly-3.png)
+        overflow: hidden;
         }
             #box {
             font-size: 60px;
             font-family: monospace;
-            position: fixed;
+            position: absolute;
             top: 0%;
             left: 50%;
             transform: translate(-50%, 0%);
