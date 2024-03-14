@@ -1,7 +1,8 @@
 
  body {
-        background: url(https://i.ibb.co/mFNmwYS/Silly-3.png)
+        height: 100%
         overflow: hidden;
+        background: url(https://i.ibb.co/mFNmwYS/Silly-3.png)
         }
             #box {
             font-size: 60px;
