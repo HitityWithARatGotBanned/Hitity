@@ -1,0 +1,106 @@
+
+ body {
+        overflow: hidden;
+        background: url(https://i.ibb.co/mFNmwYS/Silly-3.png)
+        }
+            #box {
+            font-size: 60px;
+            font-family: monospace;
+            position: fixed;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            text-align: center;
+            border-radius: 35px;
+            background: url(https://i.ibb.co/vJsMpMv/image.png);
+            padding: 20px;
+            width: 500px;
+            height: 75px;
+}
+            #pfp {
+            overflow: hidden;
+            font-size: 60px;
+            font-family: monospace;
+            position: sticky;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border-radius: 35px;
+            background: url(https://cdn.discordapp.com/avatars/1120931902103224400/25f31eda75388dd017fe055fd069aadc?size=512);
+            padding: 200px;
+            width: 100px;
+            height: 100px;
+}
+
+            #who {
+            display: block;
+            position: sticky;
+            font-size: 60px;
+            font-family: monospace;
+            bottom: -10%;
+            left: 50%;
+            transform: translate(-40%, -30%);
+            text-align: center;
+            border-radius: 35px;
+            padding: 20px;
+            width: 1024px;
+            height: 75px;
+            background: white;
+            z-index: 2;
+            cursor: pointer;
+
+}
+
+            #who2 {
+            position: sticky;
+            font-size: 60px;
+            font-family: monospace;
+            bottom: -11%;
+            left: 50%;
+            transform: translate(-39%, 130%);
+            text-align: center;
+            border-radius: 35px;
+            padding: 20px;
+            width: 1024px;
+            height: 75px;
+            background: #C8C8C8;
+            z-index: 1;
+}
+
+            #who:hover {
+            transform: translate(-42%, -32%);
+            bottom: -10%;
+}
+
+            #box2 {
+            font-size: 60px;
+            font-family: monospace;
+            position: sticky;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 800%);
+            text-align: center;
+            border-radius: 35px;
+            background: url(https://i.ibb.co/vJsMpMv/image.png);
+            padding: 20px;
+            width: 500px;
+            height: 75px;
+            opacity: 0;
+}
+
+            #test {
+            object-fit: cover;
+            font-size: 60px;
+            font-family: monospace;
+            position: sticky;
+            bottom: -20%;
+            left: 50%;
+            transform: translate(-50%, 150%);
+            text-align: center;
+            border-radius: 360px;
+            background: url(https://i.ibb.co/NsV49Dr/Hot-Hitity-With-ARat-removebg-preview.png);
+            padding: 20px;
+            width: 180px;
+            height: 180px;
+}
